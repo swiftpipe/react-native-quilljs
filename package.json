@@ -4,7 +4,7 @@
   "description": "React Native Quill Rich Text Editor Wrapper",
   "main": "./index.tsx",
   "scripts": {
-    "postinstall": "cp './assets/quill.html' '../android/app/src/main/assets/'"
+    "postinstall": "cp './assets/quill.html' '../../android/app/src/main/assets/'"
   },
   "homepage": "https://github.com/swiftpipe/react-native-quilljs",
   "repository": "git@github.com:swiftpipe/react-native-quilljs.git",
