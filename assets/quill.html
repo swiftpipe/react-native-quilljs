@@ -970,10 +970,12 @@
     } */
   
     #editor {
-      max-height: 200px;
+      height: calc(100% - 80px);
+
+      /* max-height: 200px;
       overflow: scroll;
       display: flex; 
-      flex-direction: column-reverse;
+      flex-direction: column-reverse; */
     }
 
     .command-selections .ant-popover-inner-content {
@@ -1013,7 +1015,8 @@
     } */
     .quill-wrap {
       max-width:900px;
-      width:100%
+      width:100%;
+      height: calc(100% );
     }
     .info {
       text-align:center;
